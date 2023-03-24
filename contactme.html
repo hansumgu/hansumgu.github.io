@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+    <style>
+        .c1 {
+            border: solid silver;
+            padding: 40px;
+        }
+
+        .p1 {
+            width: 500px;
+            height: 300px;
+        }
+
+        .btn {
+            margin-top: 40px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="./index.html">home</a>
+        <a href="./education.html">Education</a>
+        <a href="./work.html">Work Experience</a>
+        <a href="#">Contact me</a>
+    </nav>
+    <hr>
+    <h1>Contact Me</h1>
+    <form action="#">
+        <div class="c1">
+            <p>Enter your info..</p>
+            <label for="uname">Your Name</label><br>
+            <input type="text" name="username" id="uname"><br>
+            <label for="email">Your E-mail</label><br>
+            <input type="text" name="email" id="email">
+            <br>
+            <label for="Gender">Gender</label><br>
+            <select id="Gender" name="Gender">
+                <option value="#">Select...</option>
+                <option value="Man">Man</option>
+                <option value="Woman">Woman</option>
+            </select>
+            <p><label for="Message">Message</label></p>
+            <textarea class="p1" id="w3review" name="w3review" rows="4" cols="50"></textarea>
+            <br>
+            <div class="btn">
+                <button>Send</button>
+                <input type="reset" value="clear">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
